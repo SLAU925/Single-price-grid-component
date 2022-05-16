@@ -1,0 +1,95 @@
+/* GENERAL 
+----------------------------------------- */
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+.grid {
+    display: grid;
+    grid-template: 220px 250px / repeat(2,320px);
+    border-radius: 10px;
+}
+p {
+    margin: 2px;
+}
+
+/* GRID 
+----------------------------------------- */
+.row1 , .row2-1, .row2-2 {
+    padding: 30px 20px 20px 50px;
+}
+.row1 {
+    grid-column: 1/-1 ;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.row2-1 {
+    border-bottom-left-radius: 10px;
+    background-color: hsl(179, 62%, 43%);
+}
+.row2-2 {
+    border-bottom-right-radius: 10px;
+    background-color: hsla(179, 62%, 43%,0.6);
+}
+.main-title {
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-subtitle {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-top: 30px;
+}
+.main-subtext {
+    color: hsl(218, 22%, 67%);
+    margin-top: 20px;
+    line-height: 150%;
+}
+.subs-title {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0 10px;
+}
+.price {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 10px 0 0;
+}
+.per-month {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+.subs-subtext {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.subs-button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 80px;
+}
+.why-us {
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+}
